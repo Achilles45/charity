@@ -1,14 +1,17 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-
+import Index from '../views/Index.vue'
+import Contact from '../views/Contact.vue'
+import Causes from '../views/Causes.vue'
+import Gallery from '../views/Gallery.vue'
+import Donate from '../views/Donate.vue'
 Vue.use(VueRouter)
 
   const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Index',
+    component: Index
   },
   {
     path: '/about',
@@ -17,11 +20,35 @@ Vue.use(VueRouter)
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+  },
+  {
+    path: '/causes',
+    name: 'Causes',
+    component: Causes
+  },
+  {
+    path: '/gallery',
+    name: 'Gallery',
+    component: Gallery
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
+  },
+  {
+    path: '/donations',
+    name: 'Donate',
+    component: Donate
+  },
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode: 'history',
+  scrollBehavior (to, from, savedPositions){
+    return {x:0, y:0}
+  }
 })
 
 export default router
