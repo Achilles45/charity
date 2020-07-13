@@ -3,7 +3,7 @@
       <div class="container">
           <div class="navbar__content d-flex justify-content-between align-items-center">
               <div class="logo pt-2">
-                  <router-link to="/" class="logo"><img src="../assets/images/logo.png" class="logo__img" alt=""></router-link>
+                  <router-link to="/" class="logo"><h5>Al Maktoum Foundation</h5></router-link>
               </div>
               <div class="menu">
                   <ul class="d-flex justify-content-between pt-3">
@@ -81,6 +81,11 @@ export default {
     .navbar__content{
         .logo{
             text-decoration: none;
+            h5{
+                text-decoration: none;
+                color: #333;
+                font-weight: bold;
+            }
            .logo__img{
                max-width: 270px;
                height: auto;
@@ -116,7 +121,7 @@ export default {
             display: none;
             font-size: 1.2rem;
             padding-right: 1rem;
-            color: #fff;
+            color: #333;
         }
     }
 }
@@ -130,6 +135,13 @@ export default {
     padding: .8rem 0;
     transition: all ease-in-out .5s;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.17);
+    color: #fff !important;
+    .logo h5{
+        color: #fff !important;
+    }
+    .navbar__toggler{
+        color: #fff !important;
+    }
 }
 
 //Show Navigation
@@ -139,6 +151,9 @@ export default {
 }
 //MEDIA QUERIES
 @media only screen and (max-width: 1200px){
+    .navbar__wrapper{
+        padding: 1.6rem 0 !important; 
+    }
     .logo__img{
         max-width: 240px !important;
         height: auto;

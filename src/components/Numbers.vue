@@ -4,7 +4,7 @@
           <div class="row">
               <div class="col-md-6 text">
                   <h2>We love to help all the children that have problems in the world. After 15 years we have many goals achieved.</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam alias nam voluptates ut distinctio!</p>
+                  <p>It is our mandate and collective responsibility to make the world a better day than we met it. Supporting the less privilege is a core at what we do and we anticipate your donations from any part of the world</p>
               </div>
               <div class="col-md-1"></div>
               <div class="col-md-5">
@@ -58,9 +58,9 @@ export default {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         grid-gap: 20px;
-        position: absolute;
-        width: 100%;
-        bottom: 0;
+        // position: absolute;
+        // width: 100%;
+        // bottom: 0;
         .card__content{
             h3{
                 padding-top: 2rem;

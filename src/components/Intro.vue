@@ -8,14 +8,14 @@
                   </div>
                   <div class="card__body">
                       <h4>Bring water to children</h4>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vitae est earum a placeat nulla obcaecati, veniam deleniti?</p>
+                      <p>Having access to regular and clean water is important and it should be accessible to everyone in every part of the world. Help us bring clean water to humanity.</p>
                       <input type="range" class="form-control" min="50%" max="100%">
                       <div class="card__bottom d-flex justify-content-between">
                           <div class="amount">
-                              <p>Raised $60,000</p>
+                              <p>Raised $10,000</p>
                           </div>
                            <div class="target">
-                              <p>Goal $120,000</p>
+                              <p>Goal $50,000</p>
                           </div>
                       </div>
                   </div>
@@ -26,14 +26,14 @@
                   </div>
                   <div class="card__body">
                       <h4>Education for all</h4>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vitae est earum a placeat nulla obcaecati, veniam deleniti?</p>
+                      <p>Education should be right of everyone irrespective of religion, location, race and color. Let's bring quality education to everyone.</p>
                       <input type="range" class="form-control" min="50%" max="100%">
                       <div class="card__bottom d-flex justify-content-between">
                           <div class="amount">
-                              <p>Raised $60,000</p>
+                              <p>Raised $100,000</p>
                           </div>
                            <div class="target">
-                              <p>Goal $120,000</p>
+                              <p>Goal $500,000</p>
                           </div>
                       </div>
                   </div>
@@ -43,8 +43,8 @@
                       <img src="../assets/images/cause-3.jpg" class="img-fluid" alt="">
                   </div>
                   <div class="card__body">
-                      <h4>Bring water to children</h4>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vitae est earum a placeat nulla obcaecati, veniam deleniti?</p>
+                      <h4>Good health to children</h4>
+                      <p>There is food shortage in many parts of the world and we want to alleviate the situation by supporting the vulnerable ones. Your donations go a long way!</p>
                       <input type="range" class="form-control" min="50%" max="100%">
                       <div class="card__bottom d-flex justify-content-between">
                           <div class="amount">

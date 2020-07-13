@@ -4,8 +4,10 @@
           <div class="row">
               <div class="col-md-6">
                   <h1>Welcome to Al Maktoum Foundation</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolor ullam a cum! Voluptatem dolores adipisci expedita, dolorem reiciendis exercitationem doloremque vero dicta? Eum culpa neque eius officia repellat consequatur dolores adipisci error asperiores labore sit, facilis incidunt non quo ducimus alias recusandae temporibus harum dolorum quam! Rem, nihil temporibus.</p>
-                  <router-link to="/about" class="about__btn">Read more</router-link>
+                  <p>Mohamed Bin Rashid Al-Maktoum Humanitarian and Charity Establishment was founded in 1997 via a decree issued by HH Sheikh Maktoum Bin Rashid Al-Maktoum, Vice President of the UAE, Prime Minister and Ruler of Dubai. <br>
+                    Its objective is to undertake humanitarian and charity work extending help to the needy, orphans and widows in the UAE and abroad.
+</p>
+                  <router-link to="/about" class="about__btn">Read more</router-link><br><br><br>
               </div>
               <div class="col-md-6">
                   <img src="../assets/images/welcome.jpg" class="img-fluid" alt="">
@@ -33,9 +35,9 @@ export default {
         font-weight: bold;
     }
     p{
-        font-size: .9rem;
+        font-size: .85rem;
         padding-top: 2rem;
-        line-height: 2.2;
+        line-height: 2.4;
         opacity: .8;
         padding-bottom: 3rem;
     }

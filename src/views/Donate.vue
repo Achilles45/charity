@@ -364,7 +364,7 @@ export default {
     background: #f6f6f6;
     .donate__header{
     padding: 5rem 0;
-    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('../assets/images/welcome-bg.jpg');
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('../assets/images/banner2.jpg');
     background-position: center;
     background-size: cover;
     color: #fff;

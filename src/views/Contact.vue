@@ -16,11 +16,11 @@
             <h5>The customer support team is always ready to answer all your questions</h5>
             <hr><br>
             <h6><i class="fa fa-home"></i>Contact Office</h6>
-            <p>Remote</p>
+            <p>Dubia</p>
             <h6><i class="far fa-envelope-open"></i>Email Address</h6>
             <p>support@customsolutionsng.com</p>
-             <h6><i class="fa fa-phone"></i>Phone Number/Whatsapp</h6>
-             <p><a href="tel:08103515205">08103515205</a></p><br>
+             <!-- <h6><i class="fa fa-phone"></i>Phone Number/Whatsapp</h6>
+             <p><a href="tel:08103515205">08103515205</a></p><br> -->
          </div>
          <div class="col-md-1"></div>
          <div class="col-md-5 text">
@@ -94,7 +94,7 @@ export default {
 @import '../assets/styles/_colors';
 .contact{
   .contact__wrapper{
-    background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url('../assets/images/tech5.jpg');
+    background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url('../assets/images/banner2.jpg');
     color: #fff;
     padding: 4rem 0;
     background-repeat: no-repeat;

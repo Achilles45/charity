@@ -1,5 +1,5 @@
 <template>
-  <div class="topbar">
+  <div class="topbar d-none d-lg-block">
       <div class="container">
           <div class="row d-flex align-items-center justify-content-center">
               <div class="col-md-3 d-none d-lg-block">

@@ -23,17 +23,17 @@
                         <div class="col-md-6">
                             <h5>Fundraiser for Kids</h5>
                             <small>June, 2020</small>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dicta id hic tempora culpa aliquid ipsam voluptatibus similique ipsa magni.</p>
+                            <p>Children suffer most during wars and natural crises and they are the leaders of tomorrow. Give them hope again with your donations.</p>
                             <router-link to="/donations" class="donate__btn">Donate Now</router-link><br><br><br>
                         </div>
                     </div>
                     <input type="range" class="form-control" min="50%" max="100%">
                     <div class="card__bottom d-flex justify-content-between">
                           <div class="amount">
-                              <p>Raised $60,000</p>
+                              <p>Raised $40,000</p>
                           </div>
                            <div class="target">
-                              <p>Goal $120,000</p>
+                              <p>Goal $100,000</p>
                           </div>
                       </div>
                 </div>
@@ -43,19 +43,19 @@
                             <img src="../assets/images/eye-for.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="col-md-6">
-                            <h5>Fundraiser for Kids</h5>
+                            <h5>Supporting The Girl Child</h5>
                             <small>June, 2020</small>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dicta id hic tempora culpa aliquid ipsam voluptatibus similique ipsa magni.</p>
+                            <p>The importance of the girl child in the society cannot be over emphasized. We want to raise a generation of women that can lead from around the globe.</p>
                             <router-link to="/donations" class="donate__btn">Donate Now</router-link><br><br><br>
                         </div>
                     </div>
                     <input type="range" class="form-control" min="50%" max="100%">
                     <div class="card__bottom d-flex justify-content-between">
                           <div class="amount">
-                              <p>Raised $60,000</p>
+                              <p>Raised $20,000</p>
                           </div>
                            <div class="target">
-                              <p>Goal $120,000</p>
+                              <p>Goal $200,000</p>
                           </div>
                       </div>
                 </div>
@@ -65,7 +65,7 @@
                 <img class="card-img-top" src="../assets/images/cause-1.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Bring water to children</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Support and help provide access to running, clean and affordable water for millions of children all over the word.</p>
                     <router-link to="/donations" class="card__btn">Donate Now</router-link><br><br>
                 </div>
                 </div>
@@ -73,15 +73,15 @@
                 <img class="card-img-top" src="../assets/images/cause-2.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Education for all</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">The best gift we can give to mankind is the opportunity of having a quality education and everyone deserves this.</p>
                     <router-link to="/donations" class="card__btn">Donate Now</router-link><br><br>
                 </div>
                 </div>
                  <div class="card">
                 <img class="card-img-top" src="../assets/images/cause-3.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Bring water to children</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Help children stay healthy</h5>
+                    <p class="card-text">Millions of children all over the world are suffering from malnutrition and we want to remedy the situation.</p>
                    <router-link to="/donations" class="card__btn">Donate Now</router-link><br><br>
                 </div>
                 </div>
@@ -93,14 +93,14 @@
             <div class="row">
                 <div class="col-md-6">
                     <h1>We love to help all the children that have problems in the world. After 15 years we have many goals achieved.</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolorem iste numquam eos pariatur fugit repellat tempore ea ab officiis.</p>
-                    <input type="range" class="form-control" min="50%" max="100%">
+                    <p>Our vision is to have a world where opportunities are evenly distributed and accessible irrespective of your age, color, race and religion. Join us today!</p>
+                    <input type="range" class="form-control" min="10%" max="10%">
                     <div class="card__bottom d-flex justify-content-between mb-5">
                           <div class="amount">
-                              <p>Raised $60,000</p>
+                              <p>Raised $3,000,000</p>
                           </div>
                            <div class="target">
-                              <p>Goal $120,000</p>
+                              <p>Goal $10,000,000</p>
                           </div>
                       </div>
                       <router-link to="/donations" class="donate__btn">Donate Now</router-link><br><br>
@@ -118,24 +118,24 @@
             <div class="card">
                 <img class="card-img-top" src="../assets/images/cause-1.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Bring water to children</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Support victims of war</h5>
+                    <p class="card-text">War and tribal conflicts is causing lots of damage to so many places in the world expecially in Africa. Put smiles in people faces with any donations.</p>
                     <router-link to="/donations" class="card__btn">Donate Now</router-link><br><br>
                 </div>
                 </div>
                  <div class="card">
                 <img class="card-img-top" src="../assets/images/cause-2.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Education for all</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Good accomodation for all</h5>
+                    <p class="card-text">Having a good and safe place to lay your head at night is so important to thrive. Help bring good accomodation to all.</p>
                     <router-link to="/donations" class="card__btn">Donate Now</router-link><br><br>
                 </div>
                 </div>
                  <div class="card">
                 <img class="card-img-top" src="../assets/images/cause-3.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Bring water to children</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Bring hope to all</h5>
+                    <p class="card-text">Support other initiatives of ours that is tragetted at making the world a better place by helping people of all ages, race and religion.</p>
                    <router-link to="/donations" class="card__btn">Donate Now</router-link><br><br>
                 </div>
                 </div>
@@ -164,7 +164,7 @@ export default {
 .causes{
     .causes__header{
     padding: 5rem 0;
-    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('../assets/images/welcome-bg.jpg');
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('../assets/images/banner2.jpg');
     background-position: center;
     background-size: cover;
     color: #fff;

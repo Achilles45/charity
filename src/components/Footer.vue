@@ -3,8 +3,8 @@
       <div class="container">
           <div class="row">
               <div class="col-md-4">
-                  <img src="../assets/images/foot-logo.png" class="logo__img" alt="">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem beatae maiores facilis architecto esse cupiditate debitis assumenda quidem amet, dolorum necessitatibus laboriosam nulla sunt ut, quas reiciendis consequatur eveniet. Beatae!</p>
+                  <h4>Al Maktoum Foundation</h4>
+                  <p>The Establishment's endeavors focus on international relief work in areas stricken by wars and other disasters. It also provides health programs at home and abroad. Within the UAE it has covered the cost of surgical operations and other forms of medical treatment for the poor... </p>
               </div>
               <div class="col-md-4">
                   <h4>Useful Links</h4>
@@ -19,7 +19,7 @@
                   <h4>Contact</h4>
                   <h6><i class="fa fa-phone"></i>+45 677 8993000 223</h6>
                   <h6><i class="fa fa-envelope-open"></i>office@example.com</h6>
-                  <h6><i class="fa fa-map-marker"></i>Main Str. no 45-46, b3, 56832, Los Angeles</h6>
+                  <h6><i class="fa fa-map-marker"></i>Dubia</h6>
                   <form>
                       <div class="form-group">
                           <input type="text" class="form-control" placeholder="Your email">
@@ -59,7 +59,7 @@ export default {
         font-size: .9rem;
         opacity: .6;
         line-height: 2;
-        padding-top: 2.5rem;
+        padding-top: .5rem;
     }
     h4{
         padding-bottom: 2rem;

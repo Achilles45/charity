@@ -4,37 +4,37 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="carousel-overlay"></div>
-          <img class="carousel-img" src="../assets/images/hero1.jpg" alt="First slide" />
+          <img class="carousel-img" src="../assets/images/banner3.jpg" alt="First slide" />
           <div class="carousel-caption">
             <h1 class="animate__animated animate__bounceIn">Donate</h1>
             <h2>4 a better world</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic soluta in laborum non laboriosam reprehenderit nihil quo suscipit. Optio, illo.</p>
+            <p>We at Al maktoum foundation beleive that collectively, we can have a better world when we show kindness and empathy to people irrespective of color, race and nationality  .</p>
             <router-link to="/donations" class="carousel-btn animated zoomIn animate3d">Donate Now <i class="fas fa-long-arrow-alt-right"></i> </router-link>
-            <router-link to="/about" class="carousel-btn about__btn animated zoomIn animate3d">Read more <i class="fas fa-long-arrow-alt-right"></i> </router-link>
+            <!-- <router-link to="/about" class="carousel-btn about__btn animated zoomIn animate3d">Read more <i class="fas fa-long-arrow-alt-right"></i> </router-link> -->
           </div>
         </div>
         <div class="carousel-item">
           <div class="carousel-overlay"></div>
-          <img class="carousel-img" src="../assets/images/hero1.jpg" alt="Second slide" />
+          <img class="carousel-img" src="../assets/images/banner2.jpg" alt="Second slide" />
            <div class="carousel-caption">
-            <h1 class="animate__animated animate__bounceIn">Donate</h1>
+            <h1 class="animate__animated animate__bounceIn">Al Maktoum Foundation</h1>
             <h2>4 a better world</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic soluta in laborum non laboriosam reprehenderit nihil quo suscipit. Optio, illo.</p>
+            <p>We can all make a difference in the world today by touching the lives of the less privilege people. All donations of any amount will keep our vision alive.</p>
             <router-link to="/donations" class="carousel-btn animated zoomIn animate3d">Donate Now <i class="fas fa-long-arrow-alt-right"></i> </router-link>
-            <router-link to="/about" class="carousel-btn about__btn animated zoomIn animate3d">Read more <i class="fas fa-long-arrow-alt-right"></i> </router-link>
+            <!-- <router-link to="/about" class="carousel-btn about__btn animated zoomIn animate3d">Read more <i class="fas fa-long-arrow-alt-right"></i> </router-link> -->
           </div>
         </div>
-        <div class="carousel-item">
+        <!-- <div class="carousel-item">
           <div class="carousel-overlay"></div>
           <img class="carousel-img" src="../assets/images/hero1.jpg" alt="Third slide" />
          <div class="carousel-caption">
             <h1 class="animate__animated animate__bounceIn">Donate</h1>
             <h2>4 a better world</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic soluta in laborum non laboriosam reprehenderit nihil quo suscipit. Optio, illo.</p>
+            <p>Be the reason why millions of people all over the world should be smilling. It does'nt cost that much and you will be glad you did.</p>
             <router-link to="/donations" class="carousel-btn animated zoomIn animate3d">Donate Now <i class="fas fa-long-arrow-alt-right"></i> </router-link>
             <router-link to="/about" class="carousel-btn about__btn animated zoomIn animate3d">Read more <i class="fas fa-long-arrow-alt-right"></i> </router-link>
           </div>
-        </div>
+        </div> -->
       </div>
       <a
         class="carousel-control-prev"
@@ -76,7 +76,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.7);
+    background: rgba(0,0,0,.3);
   }
   .carousel-img {
     width: auto;
@@ -113,7 +113,7 @@ export default {
       // letter-spacing: 1px;
       font-size: .95rem;
       padding-bottom: 3rem;
-      opacity: 0.7;
+      opacity: 0.85;
       line-height: 1.8;
       padding-top: 1rem;
     }
@@ -189,6 +189,7 @@ export default {
       }
       p{
         font-size: .8rem !important;
+        padding-bottom: 2rem !important;
       }
     }
      .carousel-img {
