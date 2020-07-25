@@ -18,7 +18,7 @@
             <h6><i class="fa fa-home"></i>Contact Office</h6>
             <p>Dubia</p>
             <h6><i class="far fa-envelope-open"></i>Email Address</h6>
-            <p>support@customsolutionsng.com</p>
+            <p>example@gmail.com</p>
              <!-- <h6><i class="fa fa-phone"></i>Phone Number/Whatsapp</h6>
              <p><a href="tel:08103515205">08103515205</a></p><br> -->
          </div>

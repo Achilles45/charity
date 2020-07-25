@@ -301,7 +301,7 @@
                         </div>
                          <small id="passwordHelpBlock" class="form-text text-muted">
                                 Kindly note that we don't process payments so you can be sure that your details are safely encrypted.
-                            </small>
+                            </small> <br>
                         <div v-if="err" class="alert alert-danger">
                             {{err}}
                         </div>
@@ -310,6 +310,19 @@
                         </div><br><br>
                         <button type="submit" class="donate__btn">Donate Now</button>
                     </form>
+                    <!-- <div >
+                        <p>Upload Your Proof of Payment:</p>
+                        <input type="file" @change="previewImage" accept="image/*" >
+                        </div>
+                        <div>
+                        <p>Progress: {{uploadValue.toFixed()+"%"}}
+                        <progress id="progress" :value="uploadValue" max="100" ></progress>  </p>
+                        </div>
+                        <div v-if="imageData!=null">
+                            <img class="preview" :src="picture">
+                            <br>
+                        <button @click="onUpload" class="upload__btn">Upload Proof</button>
+                        </div> -->
                 </div>
             </div>
         </div>
@@ -319,6 +332,8 @@
 </template>
 
 <script>
+import firebase from 'firebase'
+import db from "@/firebase/init"
 import Topbar from '@/components/Topbar.vue'
 import Navbar from "@/components/Navbar.vue"
 import Footer from "@/components/Footer.vue"
@@ -336,7 +351,10 @@ export default {
             payment: null,
             amount: null,
             err: null,
-            success: null
+            success: null,
+            imageData:null,
+            picture:null,
+            uploadValue: 0
         }
     },
     methods:{
@@ -346,14 +364,53 @@ export default {
                 this.err = "Oops! Please completely fill out the form and try again"
                 this.clearAlerts()
             }else{
-                alert('All goood')
+                db.collection('donors').add({
+                    name: this.name,
+                    email: this.email,
+                    country: this.country,
+                    payment: this.payment,
+                    amount: this.amount
+                }).then(()=>{
+                    this.success = "Thank you for showing interest in helping the poor. You will receive payment details soon. Kindly upload your proof of payment afterwards."
+                })
             }
         },
+         previewImage(event) {
+      this.uploadValue=0;
+      this.picture=null;
+      this.imageData = event.target.files[0];
+    },
+          onUpload(){
+      this.picture=null;
+      const storageRef=firebase.storage().ref(`${this.imageData.name}`).put(this.imageData);
+      storageRef.on(`state_changed`,snapshot=>{
+        this.uploadValue = (snapshot.bytesTransferred/snapshot.totalBytes)*100;
+      }, error=>{console.log(error.message)},
+      ()=>{this.uploadValue=100;
+        storageRef.snapshot.ref.getDownloadURL().then((url)=>{
+        //   this.picture =url;
+        });
+      }
+      );
+    },
         clearAlerts(){
             setTimeout(() => {
                 document.querySelector('.alert').remove()
             }, 4000);
         }
+    },
+     mounted(){
+        //Get current user that just logged in
+        let user = firebase.auth().currentUser
+
+        //Now check the database to fetch the details
+        db.collection('donors').where("donor_id", "==", donor.uid).get().then(snapshot =>{
+            snapshot.forEach((doc) =>{
+                this.name = doc.data().name,
+                this.email = doc.data().email,
+                this.id = doc.data().user_id
+            })
+        })
     }
 }
 </script>
@@ -362,6 +419,14 @@ export default {
 @import '../assets/styles/_colors';
 .donate{
     background: #f6f6f6;
+    .upload__btn{
+    background: #000;
+    border:none;
+    color: #fff;
+    padding: 1rem 3rem;
+    border-radius: 3px;
+    font-size: .8rem;
+}
     .donate__header{
     padding: 5rem 0;
     background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('../assets/images/banner2.jpg');
