@@ -18,7 +18,7 @@
               <div class="col-md-4">
                   <h4>Contact</h4>
                   <h6><i class="fa fa-phone"></i>+45 677 8993000 223</h6>
-                  <h6><i class="fa fa-envelope-open"></i>office@example.com</h6>
+                  <h6><i class="fa fa-envelope-open"></i>almaktoum_foundation@yahoo.com</h6>
                   <h6><i class="fa fa-map-marker"></i>Dubia</h6>
                   <form>
                       <div class="form-group">
