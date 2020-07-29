@@ -6,7 +6,7 @@
                   <p>Contact mail: <a href="mailto:example@gmail.com">almaktoum_foundation@yahoo.com</a></p>
               </div>
                <div class="col-md-4 d-none d-lg-block">
-                  <p>Whatsapp Only: <a href="tel:08103515205">+45 677 8993000 223</a></p>
+                  <p>Whatsapp Only: <a href="tel:08103515205">+44 7451285918</a></p>
               </div>
               <div class="col-md-4 text-right">
                   <router-link to="/donations" class="topbar__btn">Donate Now</router-link>
